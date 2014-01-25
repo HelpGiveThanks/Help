@@ -17,9 +17,9 @@ Most of the time, learn notes are personal ideas, so typically the OtherNodes li
 11. Test subject's picture. Click on the box to see a larger version of the picture in a new window.
 12. Full name of library (versus the abbreviated file name).  Edit this name in the Tag Menus window. 
 13. Text box for information about the library.
-14. Version number of the Library solution.  Each solution has its own version number.  Check  HelpGiveThanks.org periodically for updates to solutions. 
-15. A few of the many people whose scholarship, science, etc. can be tested and benefited from using these Help Give Thanks Research Project solutions. 
-16. Your rights to share and use these solutions.  Click the text to view the actual license.
+14. Full name of the Library solution and version number.  Each solution has its own version number.  Check HelpGiveThanks.org periodically for updates to solutions. 
+15. Click to open a new window for more information about this solution, the Apache License, and the Help Give Thanks Research Project.
+16. I removed information from 14 and put it in the more information pop-up window 15 eliminating item 16 on this screen.  For now, instead of renumbering all the items on this screen I am just including this note to explain why there is no number  16.  Sorry for any confusion.
 
 Tag Menus: Copyright Tags
 17. Opens copyright menu.
