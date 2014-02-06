@@ -15,6 +15,6 @@ The New Day feature will always tell you your current day. By honoring each day 
 13. Your Fat and Muscle Efficiency Research solution's version number.  Check the HelpGiveThanks.org website periodically to insure that you have the most current version.
 14. List of all active libraries.  To get a library on this list, double click on it  a  .
 If you have changed a library's name or deleted it, this library's name will be removed from the list the next time you click on it. 
-15. Click to open the selected library.
-16. The selected library's solution version number.  Each library requires separate library solution, so you need to make sure all your libraries are running on the latest library-solution software.  Check the HelpGiveThanks.org website periodically to insure that you have the most current version.
+15. The selected library's solution version number.  Each library requires separate library solution, so you need to make sure all your libraries are running on the latest library-solution software.  Check the HelpGiveThanks.org website periodically to insure that you have the most current version.
+16. Click to open the selected library.
 17. Full name of the Action Log solution and version number.  Each solution has its own version number.  Check HelpGiveThanks.org periodically for updates to solutions. 18. Click to open a new window for more information about this solution, the Apache License, and the Help Give Thanks Research Project.
