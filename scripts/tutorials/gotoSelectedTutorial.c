@@ -14,7 +14,7 @@ New Record/Request
 Set Field [ tutorial::kTutorial; $kTutorial ]
 End If
 Set Variable [ $$stopScript ]
-Sort Records [ Speciﬁed Sort Order: tutorial::kTutorial; ascending
+Sort Records [ Specified Sort Order: tutorial::kTutorial; ascending
 tutorial::number; ascending ]
 [ Restore; No dialog ]
 Go to Record/Request/Page

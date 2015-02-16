@@ -21,7 +21,7 @@ Set Field [ tutorial::number; $tutorialNumber + .5 ]
 End If
 #
 #
-Sort Records [ Speciﬁed Sort Order: tutorial::kTutorial; ascending
+Sort Records [ Specified Sort Order: tutorial::kTutorial; ascending
 tutorial::number; ascending ]
 [ Restore; No dialog ]
 // If [ Get (FoundCount) > $tutorialNumber + 1 ]

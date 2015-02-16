@@ -1,5 +1,5 @@
 tutorial: getLayoutName
-Select Window [ Name: "Help"; Current ﬁle ]
+Select Window [ Name: "Help"; Current file ]
 Set Variable [ $$layout; Value:Get(LayoutName) ]
-Select Window [ Name: "Tutorial"; Current ﬁle ]
+Select Window [ Name: "Tutorial"; Current file ]
 Set Field [ tutorial::klayout; $$layout ]

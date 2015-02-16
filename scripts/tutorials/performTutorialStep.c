@@ -27,7 +27,7 @@ End If
 Set Variable [ $$helpNumber; Value:tutorial::helpNumber ]
 Refresh Window
 #
-Select Window [ Name: "Help"; Current ﬁle ]
+Select Window [ Name: "Help"; Current file ]
 #
 If [ Get (LayoutName) ≠ $$layout ]
 Go to Layout [ $$layout ]
@@ -49,7 +49,7 @@ Refresh Window
 // Go to Field [ ]
 #
 #
-Select Window [ Name: "Tutorial"; Current ﬁle ]
+Select Window [ Name: "Tutorial"; Current file ]
 Go to Field [ ]
 Scroll Window
 [ To Selection ]

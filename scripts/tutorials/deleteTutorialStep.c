@@ -5,7 +5,7 @@ Exit Script [ ]
 End If
 Delete Record/Request
 [ No dialog ]
-Sort Records [ Speciﬁed Sort Order: tutorial::kTutorial; ascending
+Sort Records [ Specified Sort Order: tutorial::kTutorial; ascending
 tutorial::number; ascending ]
 [ Restore; No dialog ]
 Go to Field [ ]

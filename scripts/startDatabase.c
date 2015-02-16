@@ -9,7 +9,7 @@ Show/Hide Status Area
 #Report version number to Memory Switch Table.
 Set Field [ MemorySwitch::versionHelp; tutorial::version ]
 #
-#Set name of window to help and size to ﬁt window.
+#Set name of window to help and size to fit window.
 Set Window Title [ Current Window; New Title: "Help" ]
 Adjust Window
 [ Resize to Fit ]
