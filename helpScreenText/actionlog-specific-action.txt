@@ -1,4 +1,6 @@
 Specific Action Windows
+
+![alt All Specific Action Screens](https://raw.githubusercontent.com/HelpGiveThanks/Help/master/helpScreenText/actionlog-specific-action-screen.png)
  
 Specific Action Window
 a list of specific actions
