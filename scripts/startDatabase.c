@@ -1,4 +1,4 @@
-July 21, 2018 21:35:12 Help.fmp12 - startDatabase -1-
+July 25, 2018 18:37:17 Help.fmp12 - startDatabase -1-
 startDatabase
 #
 #
@@ -28,16 +28,31 @@ Set Variable [ $$help2message_SpecificAction ]
 Set Field [ MemorySwitch::versionHelp; tutorial::version ]
 Set Variable [ $$layout; Value:MemorySwitch::helpLayoutName ]
 #
-#Set name of window to help and size to fit window.
+#Set name of window to help.
 Set Window Title [ Current Window; New Title: "Help" ]
-Go to Layout [ MemorySwitch::helpLayoutName ]
-Adjust Window
-[ Resize to Fit ]
+#
+#Set common variables for going to requested
+#layout and column.
+If [ MemorySwitch::helpLayoutName = "" ]
+Set Variable [ $$layout; Value:"Library Story" ]
+Else
+Set Variable [ $$layout; Value:MemorySwitch::helpLayoutName ]
+End If
+#
+#Go to selected layout.
+Go to Layout [ $$layout ]
+#
+#Insure there is only 1 layout record.
 If [ Get (LayoutTableName) = "layout" ]
+Show All Records
 Delete All Records
 [ No dialog ]
 New Record/Request
 End If
+#
+#Size to fit window.
+Adjust Window
+[ Resize to Fit ]
 #
 #Check if database is being started by administrator.
 #If it is then show admin tools.
@@ -59,15 +74,7 @@ Adjust Window
 #is running.
 Set Field [ MemorySwitch::helpAppIsRunning; 1 ]
 #
-#
-#Set common variables for going to requested
-#layout and column.
-If [ MemorySwitch::helpLayoutName = "" ]
-Set Variable [ $$layout; Value:"Library Story" ]
-Else
-Set Variable [ $$layout; Value:MemorySwitch::helpLayoutName ]
-End If
-#
+#Set variables for layout location.
 If [ Get ( LayoutName ) = "Library Story" ]
 Set Variable [ $$anchor; Value:"A" ]
 Set Variable [ $$highlightOther ]
